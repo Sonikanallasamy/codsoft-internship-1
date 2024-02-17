@@ -1,0 +1,74 @@
+*{
+    padding:0px;
+    margin:0px;
+}
+header{
+    background-image: url("http://www.pixelstalk.net/wp-content/uploads/2016/08/Free-hd-beautiful-sunset-photos.jpg");
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position:center;
+    color: white;
+    spacing:2px;
+}
+.main{
+    max-width:1101px;
+    margin:auto;
+}
+ul{
+    list-style-type:none;
+    float:right;
+    margin-top: 26px;
+}
+ul li{
+    display: inline-block;
+    border:2px solid transparent;
+}
+ul li a{
+    color:white;
+    text-decoration:none;
+    display: block;
+    padding: 6px;
+}
+ul li a:hover{
+    background-color: white;
+    color: black;
+    transition: 0.6s ease;
+}
+.active{
+    background-color: white;
+    color: black;
+}
+.image img{
+     margin-top: 26px;
+     background-image:transparent;
+}
+.center_text{
+    margin-top: 70px;
+    margin-left: 400px;
+}
+h1{
+    color: white;
+}
+#bt1{
+     border: 2px solid white;
+     color: white;
+     padding: 6px;
+     text-decoration: none;
+}
+#bt2{
+    border: 2px solid white;
+    color: white;
+    padding: 6px;
+    text-decoration: none;
+}
+#bt1:hover{
+    background-color: white;
+    color: white;
+    transition: 0.6s ease;
+}
+#bt2:hover{
+    background-color: white;
+    color: white;
+    transition: 0.6s ease;
+}
